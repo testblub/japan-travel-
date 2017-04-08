@@ -187,14 +187,14 @@ nav ul li {
    background-color: white;
 	color: #675f5f;
 	display:inline-block;
-	padding: 0px 20px;
-	margin-bottom: 10px;
+	padding: 0px 70px;
 	list-style: none;
 	text-align: center;
 }
 
 footer {
 	text-align: center;
+	margin-top: 40px;
 }
 
 
