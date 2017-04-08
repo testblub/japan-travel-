@@ -1,0 +1,205 @@
+Starter CSS
+---
+body {
+  margin: 0;
+  font-size: 16px;
+  line-height: 28px;
+  font-family: 'Playfair Display', serif;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+header {
+	background-color: black;
+	color: white;
+	background-image: url(../images/header-bg.jpg);
+	height: 600px;
+	text-align: center;
+	background-position: center;
+	background-size: cover;
+	padding-top: 50px;
+}
+
+
+header h1 {
+  font-size: 60px;	
+}
+
+header p {
+	font-style: italic;
+	margin-bottom: 50px;
+}
+
+.button {
+	font-family: 'Montserrat', sans-serif; 
+	text-decoration: none; 
+	text-transform: uppercase;
+	border: 5px solid white;
+	color: white;
+	padding: 10px 20px;
+}
+
+.button:hover {
+	background-color: white;
+	color: black;
+}
+
+nav ul {
+ list-style: none; 
+}
+
+nav ul li {
+	display: inline;
+	margin-left: 20px
+}
+
+.logo {
+	color: red;
+	margin-right: 40px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.categories {
+	text-align: center;
+	padding: 100px 0; 
+}
+
+.categories ul {
+	padding: 0;
+	list-style: none;
+}
+
+.categories ul li {
+	float: left;
+	width: 23%;
+	padding-left: 1%;
+	padding-right: 1%;
+}
+
+.categories p {
+	margin-bottom: 40px;
+}
+
+.categories img {
+	max-width: 100%;
+	margin-bottom: 20px;
+
+}
+
+.categories h3 {
+   text-transform: uppercase;
+   margin: 0;
+}
+
+.categories .button {
+	color: black;
+	border: 5px solid black;
+}
+
+
+.quote{
+	background-color: black;
+	color: white;
+	background-image: url(../images/quote-bg.jpg);
+	height: 600px;
+	text-align: center;
+	background-position: center;
+	background-size: cover;
+	padding-top: 400px;
+	background-attachment: fixed;
+}
+
+.quote h1 {
+	font-size: 60px
+}
+
+.quote p {
+	margin-bottom: 40px;
+}
+
+.quote .button {
+	padding: 10px 20px;
+	margin-top: 400px;
+}
+
+.quote .button:hover {
+	background-color: white;
+	color: black;
+}
+
+
+.featured {
+	text-align: center;
+	padding: 100px 0; 
+}
+
+.featured ul {
+	padding: 0;
+	list-style: none;
+}
+
+.featured ul li {
+	float: left;
+	width: 30%;
+	padding-left: 1%;
+	padding-right: 1%;
+	background-attachment: fixed;
+}
+
+.featured p {
+	margin-bottom: 40px;
+}
+
+.featured img {
+	max-width: 100%;
+	margin-bottom: 20px
+}
+
+.featured h3 {
+   text-transform: uppercase;
+   margin: 0;
+   background-color: red;
+	color: white;
+	display:inline-block;
+	padding: 10px 20px;
+	margin-bottom: 10px;
+
+}
+
+.featured p {
+	font-style: italic;
+	color: #675f5f;
+}
+
+
+.extra p {
+	color: #675f5f;
+	ext-transform: uppercase;
+   margin: 0;
+   background-color: white;
+	color: #675f5f;
+	display:inline-block;
+	padding: 0px 20px;
+	margin-bottom: 10px;
+	list-style: none;
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+}
+
+
+
+
+
+
+

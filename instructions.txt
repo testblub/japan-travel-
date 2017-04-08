@@ -1,0 +1,81 @@
+Japan Journal
+=============
+
+Starter CSS
+---
+body {
+  margin: 0;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+Starter HTML
+---
+<nav>
+- Logo
+- About
+- Contact Us
+</nav>
+
+<header>
+Tokyo(h1)
+"The American Who Taught Tokyo How to Make Ramen"(p)
+Explore(link)
+</header>
+
+<section class="categories">
+Dive Into Japan(h2)
+- images/eat-section.jpg
+  Eat(h3)
+  Satisfy Cravings(p)
+  Explore(link)
+- images/learn-section.jpg
+  Learn(h3)
+  Culture Vulture(p)
+  Explore(link)
+- images/know-section.jpg
+  Know(h3)
+  You'll want to read this(p)
+  Explore(link)
+- images/visit-section.jpg
+  Visit(h3)
+  Travel Intel(p)
+  Explore(link)
+</section>
+
+<section class="quote">
+Mount Fuji(h1)
+"Mount Fuji, located on Honshu Island, is the highest mountain in Japan at. An active stratovolcano that last erupted in 1707–08, Mount Fuji lies about south-west of Tokyo, and can be seen from there on a clear day."(p)
+Explore(link)
+</section>
+
+<section class="featured">
+Featured Stories(h2)
+- images/kimono-card.jpg
+  Learn(h4)
+  Kyoto(p)
+  When to Wear a Kimono(h3)
+  A History of the Kimono(p)
+- images/tower-card.jpg
+  Go(h4)
+  Tokyo(p)
+  Tokyo Tower(h3)
+  A view of Tokyo's streets from above(p)
+- images/monkey-card.jpg
+  Go(h4)
+  Nagano(p)
+  Jigokudani Monkey Park(h3)
+  The Snow Monkeys of Jigokudani(p)
+</section>
+
+<footer>
+images/facebook.jpg
+images/twitter.jpg
+Copyright 2017(p)
+</footer>
